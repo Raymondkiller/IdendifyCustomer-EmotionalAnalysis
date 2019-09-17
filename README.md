@@ -3,8 +3,7 @@ readme file
 use API:
 1. to recognize face in image:
 - publish to MQTT in topic: "APIGetPost"
-- data type json: {"source":"MainApp","func":"recognize","data":{"ID":"","base64image":""}}
-* ID is name ID you want
+- data type json: {"source":"MainApp","func":"recognize","data":{"ID":"0250879771","base64image":""}}
 * base64image is link to path of image, ex: "/home/pi/maychamcong/MainApp/image/image.jpg"
 2. to register user:
 - publish to MQTT in topic: "APIGetPost"
